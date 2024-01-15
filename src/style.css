@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    width: 100%;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem 0 0.5rem 0;
+    position: fixed;
+}
+section{
+    align-items: center;
+    justify-content: center;
+}
+a{
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.navegação{
+    display:flex;
+    width: 50%;
+}
+.menu{
+    display: flex;
+    width: 0.5px;
+    height: 0.5px;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+}
+.lupa{
+    display: flex;
+    width: 0.5px;
+    height: 0.5px;
+    justify-content: space-between;
+}
