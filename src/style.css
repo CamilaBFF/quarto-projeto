@@ -1,38 +1,88 @@
 header{
     display: flex;
     width: 100%;
-    background-color: aqua;
+    height: auto;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5rem 0 0.5rem 0;
+    padding: 0.5rem 0 0.5rem 0;
     position: fixed;
-}
-section{
-    align-items: center;
-    justify-content: center;
-}
-a{
-    color: red;
-    font-size: 20px;
-    text-decoration: none;
-    margin-right: 30px;
+    top: 0;
+    z-index: 999;
+    background-color: #EBEBEB;
 }
 .navegação{
+    display: flex;
+    width: 40%;
+}
+.listagem{
     display:flex;
-    width: 50%;
-}
-.menu{
-    display: flex;
-    width: 0.5px;
-    height: 0.5px;
+    width: 90%;
     justify-content: space-between;
-    padding: 1rem;
-    margin-right: 1rem;
-    border-radius: 1rem;
+    margin-right: 10rem;
 }
-.lupa{
+.logo{
     display: flex;
-    width: 0.5px;
-    height: 0.5px;
+    width: 5%;
+    height: auto;
+    padding: 0, 1rem, 0, 1rem;
+}
+.botoes{
+    display:flex;
     justify-content: space-between;
+    align-items: center;
+}
+.botão-menu{
+    display: flex;
+    width: 2rem;
+}
+.botão-lupa{
+    display: flex;
+    width: 2rem;
+}
+.banner{
+    display: flex;
+    background-color: #EBEBEB;
+    width: 100%;
+    height: auto;
+    align-items:center;
+    flex-direction:row;
+}
+.banner-text{
+    display: flex;
+}
+.img-abajur{
+    display: flex;
+    width: 30%;
+    height: auto;
+    padding: 0, 1rem, 0, 1rem;
+}
+.img-poltrona{
+    display: flex;
+    width: 80%;
+    height: auto;
+    padding: 0, 1rem, 0, 1rem;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    padding: 1rem 0 0 1rem;
+    background-color: #EBEBEB;
+}
+.img-facebook{
+    display: flex;
+    width: 2%;
+    height: auto;
+}
+.img-whatsapp{
+    display: flex;
+    width: 2%;
+    height: auto;
+}
+.img-instagram{
+    display: flex;
+    width: 2%;
+    height: auto;
 }
