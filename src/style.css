@@ -102,19 +102,45 @@ footer{
     height: auto;
     justify-content: space-between;
     padding: 1rem 0 0 1rem;
+    background-color:aquamarine;
+}
+.box-footer{
+    display:flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+    
+}
+.text-title{
+
+}
+.text-options{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding: 0 8rem 0 8rem;
+    background-color: greenyellow;
 }
 .img-facebook{
     display: flex;
-    width: 2%;
+    width: 100%;
     height: auto;
 }
 .img-whatsapp{
     display: flex;
-    width: 2%;
+    width: 100%;
     height: auto;
 }
 .img-instagram{
     display: flex;
-    width: 2%;
+    width: 100%;
     height: auto;
+}
+.bot-footer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color:black;
 }
